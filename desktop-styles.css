@@ -1,0 +1,110 @@
+@media screen and (min-width: 64em) {
+    header {
+        padding: 2.95rem 8rem;
+    }
+    .top-section {
+        left: -40rem;
+        height: 60vh;
+        background-position: left 20% top 10%, left 72.5% top 50%;
+    }
+
+    .logo {
+        width: 7%;
+    }
+
+    h1 {
+        font-size: 5rem;
+        max-width: 50rem;
+    }
+
+    .phone-img {
+        max-width: 50%;
+    }
+
+    .list {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 10rem 8rem 0;
+    }
+
+    .list-section .circle {
+        margin-bottom: 3rem;
+    }
+
+    .list-section {
+        flex-direction: column;
+        text-align: center;
+        max-width: 24rem;
+    }
+
+    .list h2 {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .list-description {
+        font-size: 1.2rem;
+        line-height: 32px;
+    }
+
+    .light-pink-bkgrnd {
+        left: -120rem;
+    }
+
+    .test-section {
+        margin-top: 30rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-bottom: 10rem;
+        padding: 0rem 8rem;
+    }
+
+    .test-purple-section {
+        position: relative;
+        max-width: 60%;
+        padding: 3rem 4rem;
+        font-size: 1.2rem;
+        left: 0rem;
+    }
+
+    .test-purple-section h2 {
+        font-size: 3.5rem;
+    }
+
+    .founder-img {
+        position: absolute;
+        width: 30%;
+        left: 15rem;
+        top: -15rem;
+    }
+
+    .test-paragraph {
+        margin-bottom: 2rem;
+        line-height: 32px;
+    }
+
+    .test-bg-img {
+        left: 60%;
+        top: 60%;
+    }
+
+    .apply-button {
+        width: 30%;
+    }
+
+    .socials {
+        max-width: 10%;
+    }
+
+    .learn-more:hover, .apply-button:hover {
+        background-color: #24053e;
+        border: 1px solid #44ffa1;
+        color: #44ffa1;
+    }
+
+    .apply-link:hover {
+        color: #44ffa1;
+    }
+}
